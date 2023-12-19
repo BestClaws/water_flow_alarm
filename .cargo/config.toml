@@ -1,0 +1,21 @@
+# Alias' for quickly building for different chips or running examples
+# By default we enable
+#   - `default` HAL features to set up basic chip specific settings
+#   - `embassy-time-timg0` as the examples assume we are using this time driver
+#   - `embassy-executor-thread` on Xtensa chips to take advantage of the Xtensa specific executor we have in esp-hal
+
+
+[target.riscv32imc-unknown-none-elf]
+runner = "espflash flash --monitor"
+rustflags = [
+    "-C", "link-arg=-Tlinkall.x",
+    "-C", "link-arg=-Trom_functions.x",
+    "-C", "force-frame-pointers",
+]
+
+[build]
+target = "riscv32imc-unknown-none-elf"
+
+
+[unstable]
+build-std = [ "core" ]
