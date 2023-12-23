@@ -8,7 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb03d99-8da2-49e9-8b97-26db16c98373" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/encoder.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/encoder.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +58,18 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Boby/Desktop/water_flow_alarm/server",
+    "last_opened_file_path": "C:/Users/Boby/Desktop/hardware/water_flow_alarm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "language.rust.cargo.check"
   }
 }]]></component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="runOnTheFly" value="true" />
+    <option name="tool" value="Clippy" />
+  </component>
   <component name="RunManager">
     <configuration name="WaterFlowAlarmApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.sliya.water_flow_alarm.WaterFlowAlarmApplication" />
